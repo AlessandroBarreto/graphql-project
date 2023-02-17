@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { FaList } from "react-icons/fa";
 import { useMutation, useQuery } from "@apollo/client";
-import { GET_PROJECTS } from "../queries/projectQueries";
-import { GET_CLIENTS } from "../queries/clientQueries";
-import { ADD_PROJECT } from "../mutations/projectMutation";
+import { GET_PROJECTS } from "../graphql/queries/projectQueries";
+import { GET_CLIENTS } from "../graphql/queries/clientQueries";
+import { ADD_PROJECT } from "../graphql/mutations/projectMutation";
 
 export const AddProjectModal = () => {
   const [name, setName] = useState("");

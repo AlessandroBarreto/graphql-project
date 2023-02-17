@@ -4,7 +4,7 @@ import { ClientInfo } from "../components/ClientInfo";
 import { DeleteProjectButton } from "../components/DeleteProjectButton";
 import { EditProjectForm } from "../components/EditProjectForm";
 import { Spinner } from "../components/Spinner";
-import { GET_PROJECT } from "../queries/projectQueries";
+import { GET_PROJECT } from "../graphql/queries/projectQueries";
 
 export const Project = () => {
   const { id } = useParams();
